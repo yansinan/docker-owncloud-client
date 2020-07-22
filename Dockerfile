@@ -1,5 +1,5 @@
-FROM debian:8
-MAINTAINER toughIQ <toughiq@gmail.com>
+FROM debian:stable-slim
+#MAINTAINER toughIQ <toughiq@gmail.com>
 
 RUN apt-get update \
     && apt-get install -y wget \
